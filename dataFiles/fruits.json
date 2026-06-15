@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Mango",
+    "color": "Yellow-Orange",
+    "taste": "Sweet",
+    "origin": "South Asia",
+    "calories_per_100g": 60,
+    "season": "Summer"
+  },
+  {
+    "id": 2,
+    "name": "Strawberry",
+    "color": "Red",
+    "taste": "Sweet-Tart",
+    "origin": "Europe & Americas",
+    "calories_per_100g": 32,
+    "season": "Spring"
+  },
+  {
+    "id": 3,
+    "name": "Blueberry",
+    "color": "Blue-Purple",
+    "taste": "Sweet-Mild",
+    "origin": "North America",
+    "calories_per_100g": 57,
+    "season": "Summer"
+  },
+  {
+    "id": 4,
+    "name": "Watermelon",
+    "color": "Green (Red inside)",
+    "taste": "Sweet",
+    "origin": "West Africa",
+    "calories_per_100g": 30,
+    "season": "Summer"
+  },
+  {
+    "id": 5,
+    "name": "Kiwi",
+    "color": "Brown (Green inside)",
+    "taste": "Tart-Sweet",
+    "origin": "China",
+    "calories_per_100g": 61,
+    "season": "Autumn"
+  }
+]
