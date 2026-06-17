@@ -1,4 +1,27 @@
 
+#hadoop
+https://github.com/cdarlint/winutils/tree/master/hadoop-2.7.2/bin
+
+
+# java - 17
+https://adoptium.net/temurin/releases?version=17
+
+
+
+
+
+
+# isssue i face 
+1. python version issuses
+2. java version issuses
+4. hadoop files issuses
+
+
+
+
+
+
+
 
 
 # when We have Different Python versions
@@ -32,6 +55,37 @@ JAVA_HOME    -  C:\Program Files\Java\jdk-17
 
 
 
+
+
+
+
+############################################################################
+Get-Item "C:\Program Files\Common Files\Oracle\Java\javapath\java.exe" | Format-List *
+
+
+
+java --version
+(Get-Command java).Source
+
+
+
+
+java --version
+echo $env:JAVA_HOME
+(Get-Command java).Source
+
+
+
+
+(Get-Command java).Source
+
+
+
+[Environment]::SetEnvironmentVariable(
+"JAVA_HOME",
+"C:\Program Files\Eclipse Adoptium\jdk-17.0.19.10-hotspot",
+"Machine"
+)
 
 
 

@@ -36,7 +36,7 @@ df = spark.createDataFrame(data, columns)
 df.show(truncate=False)
 
 # 5. Write to Parquet (Partitioned)
-output_path = "employee_data.parquet"
+output_path = "delete/employee_data_system.parquet"
 print(f"Writing data to Parquet format at: {output_path}")
 
 df.write.parquet(
